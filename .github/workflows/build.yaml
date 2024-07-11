@@ -24,13 +24,15 @@ jobs:
           aosp-gcc: true
           aosp-clang: true
           ksu: true
+          # set any version you want
           ksu-version: v1.0.0
+          # use empty verson, fix for clang downloading 400
           android-version: ''
           aosp-clang-version: r522817
           python-27: true
           disable-lto: true
           anykernel3: true
-          # my opts
+          # enable lxc 
           lxc: true
           lxc-patch: true
           kvm: true
