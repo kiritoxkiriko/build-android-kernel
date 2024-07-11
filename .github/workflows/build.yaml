@@ -18,14 +18,16 @@ jobs:
           kernel-url: "https://github.com/MiCode/Xiaomi_Kernel_OpenSource"
           #kernel-dir: sheng-u-oss
           kernel-branch: sheng-u-oss
-          config: build.config.msm.sheng
+          config: defconfig
           depth: 1
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
           ksu: true
+          #ksu-lkm: true
           # set any version you want
-          ksu-version: v1.0.0
+          ksu-version: v0.9.5
+
           # use empty verson, fix for clang downloading 400
           android-version: ''
           aosp-clang-version: r522817
