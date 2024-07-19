@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Build Kernel
-      uses: dabao1955/kernel_build_action@main
+      uses: kiritoxkiriko/kernel_build_action@main
       with:
           kernel-url: "https://github.com/MiCode/Xiaomi_Kernel_OpenSource"
           #kernel-dir: sheng-u-oss
