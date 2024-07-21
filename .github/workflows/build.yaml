@@ -25,7 +25,8 @@ jobs:
           depth: 1
           arch: arm64
           aosp-gcc: true
-          aosp-clang: true
+          #aosp-clang: true
+          other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/0081f4e1b3f5f835f154d52aef78d6326a583fd1.tar.gz
           ksu: true
           ksu-lkm: false
           # set any version you want
@@ -33,8 +34,9 @@ jobs:
 
           # use empty verson, fix for clang downloading 400
           android-version: ''
-          aosp-clang-version: r530567
+          #aosp-clang-version: r530567
           #aosp-clang-version: r475365b
+          
           #python-27: true
           python-27: false
           disable-lto: false
