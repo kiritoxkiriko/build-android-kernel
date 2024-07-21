@@ -16,8 +16,8 @@ jobs:
       uses: kiritoxkiriko/kernel_build_action@main
       with:
           build-gki: true
-          #kernel-url: "https://github.com/MiCode/Xiaomi_Kernel_OpenSource"
-          kernel-url: "https://android.googlesource.com/kernel/manifest"
+          kernel-url: "https://github.com/MiCode/Xiaomi_Kernel_OpenSource"
+          #kernel-url: "https://android.googlesource.com/kernel/manifest"
           #kernel-dir: sheng-u-oss
           #kernel-branch: sheng-u-oss
           kernel-branch: common-android13-5.15-2023-11
