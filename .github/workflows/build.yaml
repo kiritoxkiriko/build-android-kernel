@@ -33,7 +33,7 @@ jobs:
 
           # use empty verson, fix for clang downloading 400
           android-version: ''
-          aosp-clang-version: r522817
+          aosp-clang-version: r530567
           #aosp-clang-version: r475365b
           #python-27: true
           python-27: false
@@ -42,7 +42,7 @@ jobs:
           # enable lxc 
           lxc: true
           lxc-patch: true
-          kvm: true
+          kvm: false
           # pre-build
           #pre-build-script: "https://github.com/kiritoxkiriko/build-android-kernel/raw/main/pre-build.sh"
 
