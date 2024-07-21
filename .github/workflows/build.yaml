@@ -37,7 +37,7 @@ jobs:
           #aosp-clang-version: r475365b
           #python-27: true
           python-27: false
-          disable-lto: true
+          disable-lto: false
           anykernel3: true
           # enable lxc 
           lxc: true
