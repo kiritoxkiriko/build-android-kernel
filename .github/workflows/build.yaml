@@ -20,7 +20,7 @@ jobs:
           #kernel-url: "https://android.googlesource.com/kernel/manifest"
           #kernel-dir: sheng-u-oss
           #kernel-branch: sheng-u-oss
-          kernel-branch: common-android13-5.15-2023-11
+          kernel-branch: common-android13-5.15
           config: defconfig
           depth: 1
           arch: arm64
@@ -29,7 +29,7 @@ jobs:
           ksu: true
           ksu-lkm: false
           # set any version you want
-          ksu-version: main
+          ksu-version: v1.0.0
 
           # use empty verson, fix for clang downloading 400
           android-version: ''
@@ -42,7 +42,7 @@ jobs:
           # enable lxc 
           lxc: true
           lxc-patch: true
-          kvm: false
+          kvm: true
           # pre-build
           #pre-build-script: "https://github.com/kiritoxkiriko/build-android-kernel/raw/main/pre-build.sh"
 
