@@ -21,7 +21,7 @@ jobs:
           #kernel-dir: sheng-u-oss
           #kernel-branch: sheng-u-oss
           kernel-branch: common-android13-5.15
-          config: gki_defconfig
+          config: defconfig
           depth: 1
           arch: arm64
           aosp-gcc: true
