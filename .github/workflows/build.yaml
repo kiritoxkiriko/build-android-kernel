@@ -27,9 +27,9 @@ jobs:
           aosp-gcc: true
           aosp-clang: true
           ksu: true
-          ksu-lkm: true
+          ksu-lkm: false
           # set any version you want
-          ksu-version: v1.0.0
+          ksu-version: main
 
           # use empty verson, fix for clang downloading 400
           android-version: ''
