@@ -24,9 +24,9 @@ jobs:
           config: gki_defconfig
           depth: 1
           arch: arm64
-          #aosp-gcc: true
-          #aosp-clang: true
-          other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/0081f4e1b3f5f835f154d52aef78d6326a583fd1/clang-r450784e.tar.gz
+          aosp-gcc: true
+          aosp-clang: true
+          #other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/0081f4e1b3f5f835f154d52aef78d6326a583fd1/clang-r450784e.tar.gz
           ksu: true
           ksu-lkm: false
           # set any version you want
@@ -34,7 +34,7 @@ jobs:
 
           # use empty verson, fix for clang downloading 400
           android-version: ''
-          #aosp-clang-version: r530567
+          aosp-clang-version: r530567
           #aosp-clang-version: r475365b
           
           #python-27: true
@@ -46,7 +46,7 @@ jobs:
           lxc-patch: true
           kvm: true
           # pre-build
-          #pre-build-script: "https://github.com/kiritoxkiriko/build-android-kernel/raw/main/pre-build.sh"
+          pre-build-script: "https://github.com/kiritoxkiriko/build-android-kernel/raw/main/pre-build.sh"
 
           # release
           release: true
