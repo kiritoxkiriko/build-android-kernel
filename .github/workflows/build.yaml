@@ -31,7 +31,7 @@ jobs:
           # use empty verson, fix for clang downloading 400
           android-version: ''
           #aosp-clang-version: r522817
-          aosp-clang-version: r450784d
+          aosp-clang-version: r475365b
           #python-27: true
           python-27: false
           disable-lto: true
