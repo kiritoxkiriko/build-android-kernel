@@ -15,9 +15,12 @@ jobs:
     - name: Build Kernel
       uses: kiritoxkiriko/kernel_build_action@main
       with:
-          kernel-url: "https://github.com/MiCode/Xiaomi_Kernel_OpenSource"
+          use-repo: true
+          #kernel-url: "https://github.com/MiCode/Xiaomi_Kernel_OpenSource"
+          kernel-url: "https://android.googlesource.com/kernel/manifest"
           #kernel-dir: sheng-u-oss
-          kernel-branch: sheng-u-oss
+          #kernel-branch: sheng-u-oss
+          kernel-branch: common-android13-5.15-2023-11
           config: defconfig
           depth: 1
           arch: arm64
@@ -26,12 +29,12 @@ jobs:
           ksu: true
           #ksu-lkm: true
           # set any version you want
-          ksu-version: v0.9.5
+          ksu-version: v1.0.0
 
           # use empty verson, fix for clang downloading 400
           android-version: ''
-          #aosp-clang-version: r522817
-          aosp-clang-version: r475365b
+          aosp-clang-version: r522817
+          #aosp-clang-version: r475365b
           #python-27: true
           python-27: false
           disable-lto: true
