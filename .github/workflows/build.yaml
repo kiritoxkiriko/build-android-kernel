@@ -24,7 +24,7 @@ jobs:
           config: gki_defconfig
           depth: 1
           arch: arm64
-          aosp-gcc: true
+          #aosp-gcc: true
           #aosp-clang: true
           other-clang-url: https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/0081f4e1b3f5f835f154d52aef78d6326a583fd1/clang-r450784e.tar.gz
           ksu: true
