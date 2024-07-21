@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: kiritoxkiriko/kernel_build_action@main
       with:
-          use-repo: true
+          build-gki: true
           #kernel-url: "https://github.com/MiCode/Xiaomi_Kernel_OpenSource"
           kernel-url: "https://android.googlesource.com/kernel/manifest"
           #kernel-dir: sheng-u-oss
